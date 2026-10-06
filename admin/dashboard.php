@@ -16,7 +16,6 @@
         }
 
         body {
-            /* background: #f4f7f6; */
             color: #0d4134;
             background:
     linear-gradient(
@@ -50,7 +49,6 @@
             top: 0;
             width: 240px;
             height: 100vh;
-            /* background: #ffffff; */
             border-right: 1px solid #e5e7eb;
             padding: 25px 18px;
             z-index: 1000;

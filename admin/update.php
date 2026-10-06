@@ -607,7 +607,7 @@ if (mysqli_num_rows($result) > 0) {
             <!-- BUTTONS -->
             <div class="buttons">
                 <a
-                    href="admin_delete.php"
+                    href="dashboard.php"
                     class="back"
                 >
                     ← Back to Books

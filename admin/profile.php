@@ -494,7 +494,7 @@ button:hover {
 
                 <div class="buttons">
 
-                    <a href="profile.php" class="back">
+                    <a href="dashboard.php" class="back">
                         ← Back
                     </a>
 

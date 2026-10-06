@@ -9,7 +9,6 @@ if (isset($_POST['approve'])) {
 
     $admin_user_id = $_SESSION['user_id'];
     echo "Admin User ID: " . $admin_user_id;
-// exit();
 
     $sql = "SELECT id FROM admin
             WHERE user_id='$admin_user_id'";

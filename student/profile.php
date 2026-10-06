@@ -232,7 +232,7 @@ if (mysqli_num_rows($result) > 0) {
         .update-btn {
             flex: 1;
             border: none;
-            background: #2563eb;
+            background: #0b754c;
             color: white;
             padding: 14px;
             border-radius: 8px;
@@ -243,7 +243,7 @@ if (mysqli_num_rows($result) > 0) {
 
 
         .update-btn:hover {
-            background: #1d4ed8;
+            background: #8d791f;
         }
 
 
@@ -251,7 +251,7 @@ if (mysqli_num_rows($result) > 0) {
             flex: 1;
             text-align: center;
             text-decoration: none;
-            background: #64748b;
+            background: #e46545;
             color: white;
             padding: 14px;
             border-radius: 8px;

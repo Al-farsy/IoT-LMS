@@ -36,7 +36,17 @@ $result = mysqli_query($connection, $sql);
 body {
     margin: 0;
     font-family: Arial;
-    background: #f4f7f6;
+     background:
+    linear-gradient(
+      45deg,
+      rgba(208, 219, 218, 0.1) 0%,
+      rgba(71, 230, 182, 0.36) 10%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(129, 138, 175, 0.56) 10%,
+      rgba(228, 225, 224, 0.55) 60%
+    );
     color: #0d4134;
 }
 
@@ -91,7 +101,21 @@ button {
 .reject {
     background: #d63031;
 }
-
+#man{
+    border-radius: 15px;
+    background-color: grey;
+    position:absolute;
+    right:10%;
+}
+#man a{
+    padding:20px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+#man:hover{
+    background-color: #0a3822;
+}
 </style>
 
 </head>
@@ -212,6 +236,11 @@ if (mysqli_num_rows($result) > 0) {
 
 </div>
 
+<div id="man">
+    <a href="dashboard.php" class="back">
+                        ← Back
+                    </a>
+</div>
 </body>
 
 </html>

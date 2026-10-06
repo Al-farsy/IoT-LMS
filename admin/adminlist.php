@@ -289,7 +289,7 @@ $query = mysqli_query($connection, $sql);
         </div>
 
         <a
-            href="admin_insert.php"
+            href="dashboard.php"
             class="back-btn"
         >
             ← Back

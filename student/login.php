@@ -51,12 +51,11 @@ if (isset($_POST['login'])) {
              background-size:cover;
         }
         .login-box {
-            /* background-image:url(../images/login.jpeg); */
             width: 350px;
-            background:rgba(194, 191, 191, 0.53);
+            background:rgba(158, 158, 157, 0.53);
             padding: 30px;
             border-radius: 15px;
-            box-shadow: 0 5px 20px #b14545;
+            box-shadow: 0 5px 20px #17638f;
         }
         h1 {
             text-align: center;

@@ -88,7 +88,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         body {
             min-height: 100vh;
-            /* background: #f4f7f6; */
         background:
     linear-gradient(
       45deg,
@@ -414,7 +413,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </p>
         </div>
 
-        <a href="admin_insert.php" class="back-link">
+        <a href="dashboard.php" class="back-link">
             ← Back
         </a>
 
